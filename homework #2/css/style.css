@@ -1,0 +1,87 @@
+html {
+    background-color: #7ca76faf;
+}
+
+hr {
+    border-color: black;
+}
+
+h1 {
+    color: rgba(231, 33, 11, 0.806);
+    margin-left: 630px;
+}
+
+h2 {
+    color: rgba(19, 26, 228, 0.954);
+    margin-left: 145px;
+}
+
+h3 {
+    color: rgba(228, 19, 120, 0.954);
+    margin-left: 145px;
+}
+
+p {
+    margin-left: 145px;
+}
+
+ol {
+    margin-left: 130px;
+}
+
+ul {
+    margin-left: 115px;
+}
+
+a {
+    color: rgba(8, 15, 94, 0.954);
+}
+
+a:hover {
+    color: red;
+}
+
+.img_poster_one {
+    width: 350px;
+    margin-left: 150px;
+}
+
+.img_poster_two {
+    width: 350px;
+    margin-left: 350px;
+}
+
+.img_three {
+    width: 900px;
+    margin-left: 310px;
+}
+
+.img_four {
+    width: 700px;
+    margin-left: 410px;
+}
+
+.img_five {
+    width: 700px;
+    margin-left: 410px;
+}
+
+.signature_of_the_picture_one {
+    font-size: 2rem;
+    margin-left: 505px;
+}
+
+.signature_of_the_picture_two {
+    font-size: 2rem;
+    margin-left: 610px;
+}
+
+.signature_of_the_picture_three {
+    font-size: 2rem;
+    margin-left: 440px;
+}
+
+.signature_of_the_picture_four {
+    font-size: 2rem;
+    margin-left: 640px;
+}
