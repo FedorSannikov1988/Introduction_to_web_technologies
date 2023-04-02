@@ -9,7 +9,7 @@
 //передав туда данное значение.
 
 function greeting(nameUser) {
-    return console.log( "Здрасвуйте", nameUser);
+    return console.log("Здравствуйте "+nameUser);
 }
 
 const nameUser = prompt("Как Вас зовут ?");

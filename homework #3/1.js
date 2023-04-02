@@ -15,16 +15,16 @@
 //Советую округлить значение после расчетов, так как в некоторых 
 //случаях может получиться "длинная дробь".
 
-const tC = parseFloat(prompt("Введите температуру в градусах Цельсия:"));
+const tempСelsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия:"));
 
-alert(`Температура ${tC} С = ${tF(tC)} F`);
+alert(`Температура ${tempСelsius} С = ${fahrenheit(tempСelsius).toFixed(2)} F`);
 
-function tF(tC) {
-    return (((9 / 5)* tC) + 32).toFixed(2);
+function fahrenheit(tempСelsius) {
+    return (((9 / 5)* tempСelsius) + 32);
 }
 
-const degreesC = document.getElementById('tC');
-const degreesF = document.getElementById('tF'); 
+const degreesСelsius = document.getElementById('t_C');
+const degreesFahrenheit = document.getElementById('t_F'); 
 
-degreesC.innerHTML = tC;
-degreesF.innerHTML = tF(tC);
+degreesСelsius.innerHTML = tempСelsius;
+degreesFahrenheit.innerHTML = fahrenheit(tempСelsius).toFixed(2);
