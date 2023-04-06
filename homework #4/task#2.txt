@@ -1,0 +1,20 @@
+https://onecompiler.com/mysql
+
+-- create
+CREATE TABLE EMPLOYEE (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  age INT NOT NULL,
+  adress TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№1 - 5', '5', 'adress1');
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№2 - 18', '18', 'adress2');
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№3 - 20', '20', 'adress3');
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№4 - 29', '29', 'adress4');
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№5 - 30', '30', 'adress5');
+INSERT INTO EMPLOYEE (name, age, adress) VALUES ('Человек№6 - 31', '31', 'adress6');
+
+-- fetch
+SELECT name FROM EMPLOYEE WHERE age >= 18 && age < 30
